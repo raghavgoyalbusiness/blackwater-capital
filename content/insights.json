@@ -1,0 +1,176 @@
+{
+  "_readme": "CMS seam. Each article is a record; `body` is an ordered list of blocks (p, h2, h3, quote, list, figure, diagram, note). Add, edit or reorder freely — the site renders whatever is here. Replace this file with a CMS feed by swapping loadInsights() in server.js.",
+  "categories": [
+    "Markets",
+    "Private Equity",
+    "Credit",
+    "Real Assets",
+    "Portfolio Construction",
+    "Blackwater Perspectives"
+  ],
+  "articles": [
+    {
+      "slug": "investing-through-changing-market-cycles",
+      "title": "Investing Through Changing Market Cycles",
+      "category": "Markets",
+      "author": "Blackwater Capital Investment Team",
+      "date": "2026-06-18",
+      "readingTime": 7,
+      "plate": "water",
+      "excerpt": "Cycles are easier to describe than to trade. The more useful question is not where we are in the cycle, but which decisions remain sound across the whole of it.",
+      "body": [
+        { "type": "p", "text": "Every generation of investors rediscovers the cycle. Conditions loosen, capital becomes abundant, competition for assets intensifies, underwriting standards drift, and the definition of a reasonable price quietly widens. Conditions then tighten, and the same assets are reappraised against a colder set of assumptions. The pattern is familiar enough to be a cliché, yet it remains one of the most reliable features of financial markets." },
+        { "type": "p", "text": "What is far less reliable is anyone's ability to time it. Turning points are obvious in retrospect and ambiguous in the moment, because the data that would confirm a turn arrives after the prices have already moved. An investment process built on correctly calling the top or the bottom is, in practice, a process built on being lucky twice." },
+        { "type": "quote", "text": "The value of understanding cycles is not that it tells you what will happen next. It is that it tells you which of your assumptions are borrowed from the current environment.", "attribution": "Blackwater Capital" },
+        { "type": "h2", "text": "Conditions change; the underwriting question does not" },
+        { "type": "p", "text": "A more durable use of cycle awareness is diagnostic rather than predictive. When we underwrite an opportunity, some of our assumptions describe the business itself — how it earns money, what it costs to serve a customer, how durable its position is. Others describe the environment the business happens to be sitting in — the cost of debt, the availability of refinancing, the multiple a future buyer might pay, the willingness of customers to absorb price increases." },
+        { "type": "p", "text": "The second category is where cycles do their damage. Those assumptions feel like facts because they have been true for as long as most of the room can remember. Separating the two — and then asking what the investment looks like if only the environmental assumptions revert — is a more practical discipline than forecasting." },
+        { "type": "diagram", "schematic": "cycle", "caption": "Illustrative schematic only. This diagram is a conceptual representation of how conditions shift over time. It is not based on data, does not depict any market, index or portfolio, and does not represent any result." },
+        { "type": "h2", "text": "Three habits that travel well" },
+        { "type": "p", "text": "Rather than positioning for a predicted phase, we prefer decisions that remain defensible in more than one. Three habits do most of the work." },
+        { "type": "list", "items": [
+          "<strong>Underwrite to the business, then stress the environment.</strong> Establish what the asset is worth on assumptions you would be willing to defend in a colder market, and treat any additional value from favourable conditions as optionality rather than as the base case.",
+          "<strong>Respect liquidity as a position, not an afterthought.</strong> The ability to wait is what converts a temporary dislocation into an opportunity instead of a forced decision. Liquidity is expensive precisely when it is most valuable.",
+          "<strong>Keep the reasons written down.</strong> A thesis recorded before the outcome is known is the only reliable defence against the story being rewritten afterwards."
+        ]},
+        { "type": "h2", "text": "Patience is a strategy, not a personality trait" },
+        { "type": "p", "text": "Long-term investing is often described as a temperament. We think it is better understood as a structure. Patience is what a portfolio can afford when its funding, its liquidity and its stated expectations are all arranged to permit waiting. Where those arrangements are absent, patience tends to evaporate at exactly the moment it would have been rewarded." },
+        { "type": "p", "text": "The practical implication is that the work of investing through cycles happens well before the cycle turns — in how mandates are framed, how much is committed at any one time, and how honestly downside scenarios were described when everyone was optimistic." },
+        { "type": "note", "text": "This article discusses general investment concepts. It does not describe any specific investment, strategy or result, and should not be relied upon as advice." }
+      ]
+    },
+    {
+      "slug": "the-importance-of-capital-discipline",
+      "title": "The Importance of Capital Discipline",
+      "category": "Blackwater Perspectives",
+      "author": "Blackwater Capital Investment Team",
+      "date": "2026-05-27",
+      "readingTime": 6,
+      "plate": "stone",
+      "excerpt": "Most investment mistakes are not analytical failures. They are decisions made because capital was available and needed somewhere to go.",
+      "body": [
+        { "type": "p", "text": "Capital discipline is one of those phrases that appears in every investment document and is defined in almost none of them. In our use, it means something specific and slightly uncomfortable: the willingness to hold capital back when the opportunity set does not justify deploying it, and to accept the reputational cost of appearing inactive." },
+        { "type": "h2", "text": "The pressure to deploy" },
+        { "type": "p", "text": "Undeployed capital creates pressure in every direction. It looks like indecision to some observers and like a fee drag to others. Over a long enough period, that pressure reliably lowers the bar. Nobody announces that they are relaxing their standards; the standards simply become more accommodating, one reasonable-sounding exception at a time." },
+        { "type": "p", "text": "The countermeasure is not stubbornness. It is having a written definition of what qualifies, agreed in advance, and treating a shrinking list of qualifying opportunities as information about the market rather than as a problem with the criteria." },
+        { "type": "quote", "text": "A high bar is only meaningful if you are prepared to end a year having cleared it a small number of times." },
+        { "type": "h2", "text": "Protecting capital comes first" },
+        { "type": "p", "text": "There is an arithmetic reason to place capital preservation ahead of return generation, and it has nothing to do with temperament. Losses and gains are not symmetric: recovering from a significant impairment requires a disproportionately larger gain simply to return to the starting point. The deeper the drawdown, the more of the subsequent recovery is spent standing still." },
+        { "type": "p", "text": "This is why we treat the downside case as the primary case rather than as an appendix. The question we try to answer first is not what this investment could be worth, but what has to be true for it to be worth materially less — and whether we would still be comfortable owning it if that happened." },
+        { "type": "diagram", "schematic": "risk-return", "caption": "Illustrative schematic only. A conceptual depiction of how the range of possible outcomes tends to widen as risk increases. It is not based on data and does not represent any expected or actual result." },
+        { "type": "h2", "text": "What discipline looks like in practice" },
+        { "type": "list", "items": [
+          "Deciding the maximum price before meeting the seller, and recording it.",
+          "Treating a competitive process as a reason for additional scrutiny rather than additional urgency.",
+          "Separating the decision to invest from the decision about size — conviction and concentration are different questions.",
+          "Reviewing declined opportunities with the same rigour as completed ones, so the bar is tested in both directions."
+        ]},
+        { "type": "p", "text": "None of this is complicated. It is simply easier to write than to sustain, particularly in periods when discipline is expensive and its benefits are invisible." },
+        { "type": "note", "text": "General commentary on investment process. Not advice, and not a description of any specific investment or outcome." }
+      ]
+    },
+    {
+      "slug": "where-private-markets-may-create-long-term-value",
+      "title": "Where Private Markets May Create Long-Term Value",
+      "category": "Private Equity",
+      "author": "Blackwater Capital Investment Team",
+      "date": "2026-05-06",
+      "readingTime": 8,
+      "plate": "architecture",
+      "excerpt": "Private ownership is not an advantage in itself. It is an advantage where the work required is slow, specific, and difficult to do under quarterly observation.",
+      "body": [
+        { "type": "p", "text": "The case for private markets is often made in terms of access — the argument that the interesting companies are simply not listed. That is sometimes true, but it is a weak foundation for an investment thesis. A more useful framing asks what private ownership actually enables that public ownership does not, and then invests only where that difference is doing real work." },
+        { "type": "h2", "text": "Where the structure earns its keep" },
+        { "type": "p", "text": "Three conditions tend to make private ownership genuinely useful rather than merely different." },
+        { "type": "list", "items": [
+          "<strong>The work takes longer than the reporting cycle.</strong> Replacing a core system, rebuilding a commercial organisation or repositioning a product set can take years and will usually look worse before it looks better. Private ownership allows that sequence to run without needing to be explained every quarter.",
+          "<strong>Ownership and governance are concentrated.</strong> A small, aligned group of decision-makers can act faster and commit further than a dispersed shareholder base. This is an advantage when the plan is correct and a liability when it is not, which is why the underwriting matters more than the structure.",
+          "<strong>The improvement is operational rather than financial.</strong> Value created by better pricing, better procurement, or a better management team is more durable than value created by leverage or by multiple expansion — and considerably less dependent on the environment."
+        ]},
+        { "type": "quote", "text": "If the plan only works because the exit multiple matches the entry multiple, the plan is a forecast about other buyers, not a plan about the business." },
+        { "type": "h2", "text": "The uncomfortable trade-off" },
+        { "type": "p", "text": "In exchange for that latitude, the investor gives up liquidity — often for a long time and usually at a moment of their choosing rather than the market's. That trade should be made deliberately. Illiquidity is only worth accepting where the ownership structure is actually being used to do something; where the plan is essentially to hold and hope, the investor has paid a real cost for nothing." },
+        { "type": "figure", "plate": "geometry", "alt": "Abstract geometric study of intersecting arcs and lines.", "caption": "Abstract study — Blackwater Capital." },
+        { "type": "h2", "text": "Partnership as an underwriting question" },
+        { "type": "p", "text": "In private investing, the counterparty is not a market — it is a small number of identifiable people. Their incentives, their tolerance for difficulty and their willingness to change their minds are as material to the outcome as the financial model. We treat the assessment of management and of alignment as part of the underwriting rather than as a soft consideration bolted on at the end." },
+        { "type": "note", "text": "Educational commentary on private market investing generally. It is not an offer, recommendation or solicitation, and it does not describe any actual investment, transaction or result." }
+      ]
+    },
+    {
+      "slug": "reading-a-capital-structure",
+      "title": "Reading the Capital Structure First",
+      "category": "Credit",
+      "author": "Blackwater Capital Investment Team",
+      "date": "2026-04-14",
+      "readingTime": 6,
+      "plate": "depth",
+      "excerpt": "In credit, the position you hold in the capital structure determines what you actually own — often more than the quality of the underlying business does.",
+      "body": [
+        { "type": "p", "text": "Equity investors ask what a business could become. Credit investors ask what happens if it does not. That difference in question produces a different order of work: before assessing the opportunity, we want to understand precisely where a claim sits, what secures it, and what the holder can compel if things go wrong." },
+        { "type": "diagram", "schematic": "capital-structure", "caption": "Illustrative schematic only. A conceptual ordering of claims in a simplified capital structure. It does not depict any actual borrower, instrument or transaction." },
+        { "type": "h2", "text": "Priority is not a technicality" },
+        { "type": "p", "text": "Two lenders to the same company, at the same moment, can hold instruments with materially different risk simply because of where they sit. Seniority determines who is paid first, security determines what can be claimed, and the documentation determines what the borrower is permitted to do in between — including whether assets can be moved beyond the reach of existing lenders." },
+        { "type": "quote", "text": "In benign conditions, documentation looks like paperwork. In difficult conditions, it is the entire investment." },
+        { "type": "h2", "text": "The questions we ask first" },
+        { "type": "list", "items": [
+          "What secures this claim, and what is that security actually worth to someone other than the current owner?",
+          "Who ranks ahead of us, and can that group grow without our consent?",
+              "What does the borrower have to do — and what are they merely encouraged to do?",
+          "Where does the cash sit, and what has to happen for it to reach us?",
+          "If the plan does not work, what is the realistic path to recovery, and how long does it take?"
+        ]},
+        { "type": "h2", "text": "Flexibility with structure" },
+        { "type": "p", "text": "Private credit is often described as flexible capital, and it can be — flexibility in timing, in structure and in the ability to work through a situation with a small group of lenders rather than a dispersed market. But flexibility offered to a borrower must be paid for somewhere: in pricing, in protections, or in control. Where a structure appears to give away flexibility for nothing, the cost is usually hidden in the documentation." },
+        { "type": "note", "text": "General educational commentary on credit concepts. Not investment, legal or tax advice, and not an offer or solicitation." }
+      ]
+    },
+    {
+      "slug": "duration-contracts-and-real-assets",
+      "title": "Duration, Contracts and the Case for Real Assets",
+      "category": "Real Assets",
+      "author": "Blackwater Capital Investment Team",
+      "date": "2026-03-23",
+      "readingTime": 7,
+      "plate": "coast",
+      "excerpt": "Essential assets are attractive because of what is contracted around them — not simply because they are physical.",
+      "body": [
+        { "type": "p", "text": "Real assets are sometimes discussed as though tangibility were the point: infrastructure, property, logistics and energy assets are real things, and real things feel safer than claims on future earnings. Physicality on its own guarantees very little. A building with no tenant and a road with no traffic are both extremely real." },
+        { "type": "h2", "text": "The asset is the contract" },
+        { "type": "p", "text": "What tends to make long-duration assets attractive is the contractual and regulatory structure wrapped around them: who is obliged to pay, for how long, under what conditions, with what protection against rising costs, and what happens at the end of the term. Two physically identical assets with different contracts are, for investment purposes, different assets." },
+        { "type": "quote", "text": "Underwriting a long-duration asset is mostly the work of underwriting the counterparties and the terms that will outlive today's conditions." },
+        { "type": "h2", "text": "Long duration cuts both ways" },
+        { "type": "p", "text": "A long contracted life is a genuine advantage when the terms are favourable and the counterparty is durable. The same length becomes a liability when the terms were set against assumptions that no longer hold — a cost base that has moved, a technology that has changed, or a regulatory framework that has been revisited. Duration magnifies whatever was agreed at the outset." },
+        { "type": "figure", "plate": "network", "alt": "Abstract network study of connected nodes and lines.", "caption": "Abstract study of connection and infrastructure — Blackwater Capital." },
+        { "type": "h2", "text": "Essential is a test, not a label" },
+        { "type": "p", "text": "The word essential is applied generously. A more demanding test is to ask what a user would do if the asset were unavailable: whether a substitute exists, what switching would cost, and how quickly it could be arranged. Where the honest answer is that alternatives are readily available, the asset is competing on price like anything else — whatever the sector it sits in." },
+        { "type": "note", "text": "General commentary on real asset investing. Not advice, and not a description of any specific asset, transaction or result." }
+      ]
+    },
+    {
+      "slug": "diversification-is-a-decision",
+      "title": "Diversification Is a Decision, Not a Default",
+      "category": "Portfolio Construction",
+      "author": "Blackwater Capital Investment Team",
+      "date": "2026-02-19",
+      "readingTime": 6,
+      "plate": "geometry",
+      "excerpt": "Holding many positions is not the same as holding different risks. Portfolios are usually less diversified than their line counts suggest.",
+      "body": [
+        { "type": "p", "text": "Diversification is widely accepted and frequently misapplied. A portfolio can hold a great many positions and still be a concentrated expression of a small number of underlying bets — on the direction of rates, on the availability of credit, on a single end market, or on one assumption about consumer behaviour repeated across several holdings." },
+        { "type": "h2", "text": "Count exposures, not positions" },
+        { "type": "p", "text": "The more informative exercise is to describe, in plain language, what a portfolio is actually betting on, and then to check how many of the holdings depend on each of those statements being true. Positions that appear unrelated by sector or geography often share a single sensitivity that only becomes visible under stress — which is precisely when the benefit of diversification was supposed to arrive." },
+        { "type": "quote", "text": "Correlations are a description of the past. They are least reliable in the conditions that make them matter." },
+        { "type": "h2", "text": "The cost of over-diversifying" },
+        { "type": "p", "text": "There is an opposite failure. A portfolio spread so widely that no single holding can meaningfully affect the outcome has, in effect, chosen to own the average. That may be an entirely reasonable objective — but it should be a stated one, not the accidental result of never declining anything." },
+        { "type": "list", "items": [
+          "Decide what the portfolio is deliberately exposed to, and write it down.",
+          "Size positions against conviction and against the consequence of being wrong, not against a target number of holdings.",
+          "Test the portfolio against a small number of specific, plausible scenarios rather than against a general sense of caution.",
+          "Re-examine holdings that no longer earn their place, including the comfortable ones."
+        ]},
+        { "type": "p", "text": "Concentration and diversification are not opposing philosophies. They are settings on the same instrument, and the useful discipline is choosing them deliberately rather than inheriting them." },
+        { "type": "note", "text": "General educational commentary on portfolio construction. Not advice, and not a recommendation of any allocation or approach." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "blackwater-capital",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Blackwater Capital — website for a proposed investment and asset management brand.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,146 @@
+<!--meta {
+  "title": "Contact — Blackwater Capital",
+  "description": "Contact Blackwater Capital. Investor enquiries, business and investment opportunities, media, careers and general enquiries.",
+  "path": "/contact",
+  "nav": "contact",
+  "heroTheme": "dark",
+  "og": "contact",
+  "scripts": ["contact"]
+} -->
+
+<section class="page-hero" aria-labelledby="contact-title">
+  <div class="plate plate--water" aria-hidden="true"></div>
+  <div class="page-hero__veil" aria-hidden="true"></div>
+  <div class="shell">
+    <p class="eyebrow reveal">Contact</p>
+    <h1 class="page-hero__title reveal" data-delay="1" id="contact-title">Start a conversation.</h1>
+    <p class="lead reveal measure--wide" data-delay="2">
+      We welcome introductions from investors, founders, business owners, advisers and potential
+      partners. Tell us a little about who you are and what prompted you to write.
+    </p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="enquiry-title">
+  <div class="shell">
+    <div class="split split--wide-left" style="align-items:start;">
+      <div class="contact__aside">
+        <p class="eyebrow reveal">Enquiry types</p>
+        <h2 class="h3 reveal" data-delay="1" style="margin-block:1.25rem 2rem;">How can we help?</h2>
+
+        <div class="contact-cats reveal" data-delay="2">
+          <div class="contact-cat">
+            <h3>Investor enquiries</h3>
+            <p>Institutions, family offices, endowments and private investors interested in our approach.</p>
+          </div>
+          <div class="contact-cat">
+            <h3>Business and investment opportunities</h3>
+            <p>Founders, owners, management teams, intermediaries and advisers with an opportunity to discuss.</p>
+          </div>
+          <div class="contact-cat">
+            <h3>Media enquiries</h3>
+            <p>Journalists and publications seeking comment or background.</p>
+          </div>
+          <div class="contact-cat">
+            <h3>Careers</h3>
+            <p>Investment, operational and advisory roles, including speculative introductions.</p>
+          </div>
+          <div class="contact-cat">
+            <h3>General enquiries</h3>
+            <p>Anything that does not fit the categories above.</p>
+          </div>
+        </div>
+
+        <div class="reveal" style="margin-top:2.5rem;">
+          <p class="eyebrow eyebrow--plain" style="margin-bottom:.9rem;">Offices</p>
+          <p class="lead" style="font-size:var(--fs-sm);">
+            Office locations and correspondence addresses: <span class="placeholder">[to be confirmed]</span>.
+            Direct email and telephone details will be published alongside them.
+          </p>
+        </div>
+      </div>
+
+      <div class="contact__form-wrap" id="enquiry">
+        <h2 class="h3 reveal" id="enquiry-title" style="margin-bottom:.75rem;">Request an introduction</h2>
+        <p class="lead reveal" data-delay="1" style="font-size:var(--fs-sm); margin-bottom:2.5rem;">
+          Fields marked with an asterisk are required. We treat every enquiry as confidential.
+        </p>
+
+        <form class="form reveal" data-delay="2" data-enquiry-form method="post" action="/api/enquiry" novalidate>
+          <p class="form__status" data-form-status role="status" tabindex="-1"></p>
+
+          <div class="form__row">
+            <div class="field">
+              <label for="f-name">Full name <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="f-name" name="name" autocomplete="name" required aria-describedby="e-name">
+              <p class="error" id="e-name"></p>
+            </div>
+            <div class="field">
+              <label for="f-email">Work email <span class="req" aria-hidden="true">*</span></label>
+              <input type="email" id="f-email" name="email" autocomplete="email" required aria-describedby="e-email">
+              <p class="error" id="e-email"></p>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label for="f-org">Organisation</label>
+              <input type="text" id="f-org" name="organisation" autocomplete="organization">
+              <p class="error" id="e-org"></p>
+            </div>
+            <div class="field">
+              <label for="f-role">Role</label>
+              <input type="text" id="f-role" name="role" autocomplete="organization-title">
+              <p class="error" id="e-role"></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="f-type">Enquiry type <span class="req" aria-hidden="true">*</span></label>
+            <select id="f-type" name="enquiryType" required aria-describedby="e-type">
+              <option value="">Please select</option>
+              <option>Investor enquiries</option>
+              <option>Business and investment opportunities</option>
+              <option>Media enquiries</option>
+              <option>Careers</option>
+              <option>General enquiries</option>
+            </select>
+            <p class="error" id="e-type"></p>
+          </div>
+
+          <div class="field">
+            <label for="f-message">Message <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="f-message" name="message" required aria-describedby="e-message"
+              placeholder="A short description of your enquiry."></textarea>
+            <p class="error" id="e-message"></p>
+          </div>
+
+          <div class="field field--consent">
+            <input type="checkbox" id="f-consent" name="consent" required aria-describedby="e-consent">
+            <label for="f-consent">
+              I consent to Blackwater Capital storing and processing the details above in order to
+              respond to this enquiry, as described in the
+              <a class="link-u link-u--on" href="/privacy">Privacy Policy</a>. <span class="req" aria-hidden="true">*</span>
+            </label>
+            <p class="error" id="e-consent"></p>
+          </div>
+
+          <div class="hp" aria-hidden="true">
+            <label for="f-company">Company (leave blank)</label>
+            <input type="text" id="f-company" name="company" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div>
+            <button class="btn btn--solid" type="submit">Submit Enquiry <span class="btn__arrow" aria-hidden="true">→</span></button>
+          </div>
+
+          <p class="form__legal">
+            Submitting this form does not create a client, advisory or contractual relationship and
+            does not constitute an application to invest. Please do not send confidential or
+            price-sensitive information through this form.
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

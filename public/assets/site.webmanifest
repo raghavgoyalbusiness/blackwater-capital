@@ -1,0 +1,13 @@
+{
+  "name": "Blackwater Capital",
+  "short_name": "Blackwater",
+  "description": "Blackwater Capital — long-term investment and asset management.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090B0D",
+  "theme_color": "#090B0D",
+  "icons": [
+    { "src": "/assets/img/icon-192.png", "sizes": "192x218", "type": "image/png" },
+    { "src": "/assets/img/icon-512.png", "sizes": "512x582", "type": "image/png" }
+  ]
+}
