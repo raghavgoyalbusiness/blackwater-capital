@@ -4,17 +4,23 @@
   "path": "/",
   "nav": "",
   "heroTheme": "dark",
-  "og": "default"
+  "bodyClass": "page-home",
+  "og": "default",
+  "scripts": ["scene/scene-at", "scene/scene"]
 } -->
 
+<!-- The living scene. Empty until WebGL is confirmed; the CSS plates below are the
+     fallback and render on their own if it never arrives. -->
+<div class="scene" data-scene-host aria-hidden="true"></div>
+
 <!-- ============================================================ hero -->
-<section class="hero" aria-labelledby="hero-title">
+<section class="hero" data-scene="hero" data-scrim="left" aria-labelledby="hero-title">
   <div class="hero__bg" aria-hidden="true"><div class="plate plate--depth"></div></div>
   <div class="hero__veil" aria-hidden="true"></div>
 
   <svg class="hero__waves" viewBox="0 0 1200 300" preserveAspectRatio="none" aria-hidden="true" focusable="false">
     <g class="wave wave--3">
-      <path d="M0 150 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0 L2400 300 L0 300 Z" fill="#66717D" fill-opacity=".16"/>
+      <path d="M0 150 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0 L2400 300 L0 300 Z" fill="#66717D" fill-opacity=".10"/>
     </g>
     <g class="wave wave--2">
       <path d="M0 178 c 70 -26 170 26 240 0 c 70 -26 170 26 240 0 c 70 -26 170 26 240 0 c 70 -26 170 26 240 0 c 70 -26 170 26 240 0 c 70 -26 170 26 240 0 c 70 -26 170 26 240 0 c 70 -26 170 26 240 0 c 70 -26 170 26 240 0 c 70 -26 170 26 240 0 L2400 300 L0 300 Z" fill="#07172E" fill-opacity=".85"/>
@@ -23,7 +29,7 @@
       <path d="M0 214 c 120 -30 280 30 400 0 c 120 -30 280 30 400 0 c 120 -30 280 30 400 0 c 120 -30 280 30 400 0 c 120 -30 280 30 400 0 c 120 -30 280 30 400 0 L2400 300 L0 300 Z" fill="#090B0D"/>
     </g>
     <g class="wave wave--line">
-      <path d="M0 150 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0" fill="none" stroke="#F5F4F0" stroke-opacity=".22" stroke-width="1"/>
+      <path d="M0 150 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0 c 90 -34 210 -34 300 0 c 90 34 210 34 300 0" fill="none" stroke="#F5F4F0" stroke-opacity=".10" stroke-width="1"/>
     </g>
   </svg>
 
@@ -44,7 +50,7 @@
 </section>
 
 <!-- ================================================ philosophy -->
-<section class="section" aria-labelledby="philosophy-title">
+<section class="section section--dark" data-scene="philosophy" data-scrim="left" aria-labelledby="philosophy-title">
   <div class="shell">
     <div class="split split--wide-left" style="align-items: start;">
       <div>
@@ -82,7 +88,7 @@
 </section>
 
 <!-- ================================================ strategies -->
-<section class="section section--dark" aria-labelledby="strategies-title">
+<section class="section section--dark" data-scene="strategies" data-scrim="full" aria-labelledby="strategies-title">
   <div class="shell">
     <div class="section__head">
       <div>
@@ -150,7 +156,7 @@
 </section>
 
 <!-- ================================================ approach -->
-<section class="section" aria-labelledby="approach-title">
+<section class="section section--dark" data-scene="approach" data-scrim="right" aria-labelledby="approach-title">
   <div class="shell">
     <div class="split">
       <figure class="editorial__media reveal-media" style="margin:0;">
@@ -174,7 +180,7 @@
 </section>
 
 <!-- ================================================ process -->
-<section class="section section--dark" aria-labelledby="process-title">
+<section class="section section--dark" data-scene="process" data-scrim="full" aria-labelledby="process-title">
   <div class="shell">
     <div class="section__head">
       <div>
@@ -226,7 +232,7 @@
 </section>
 
 <!-- ================================================ global -->
-<section class="section section--charcoal" aria-labelledby="global-title">
+<section class="section section--dark" data-scene="global" data-scrim="left" aria-labelledby="global-title">
   <div class="shell">
     <div class="split" style="align-items:center;">
       <div class="stack stack--lg">
@@ -263,19 +269,16 @@
           </defs>
           <circle class="g-fill" cx="100" cy="100" r="78"/>
           <circle class="g-rim" cx="100" cy="100" r="78"/>
-          <!-- parallels -->
           <ellipse class="g-line" cx="100" cy="100" rx="78" ry="24"/>
           <ellipse class="g-line" cx="100" cy="100" rx="72" ry="49"/>
           <ellipse class="g-line" cx="100" cy="100" rx="55" ry="68"/>
           <line class="g-line" x1="22" y1="100" x2="178" y2="100"/>
-          <!-- meridians, rotating -->
           <ellipse class="g-line globe__meridian" cx="100" cy="100" rx="78" ry="78"/>
           <ellipse class="g-line globe__meridian" cx="100" cy="100" rx="78" ry="78"/>
           <ellipse class="g-line globe__meridian" cx="100" cy="100" rx="78" ry="78"/>
           <ellipse class="g-line globe__meridian" cx="100" cy="100" rx="78" ry="78"/>
           <ellipse class="g-line globe__meridian" cx="100" cy="100" rx="78" ry="78"/>
           <ellipse class="g-line globe__meridian" cx="100" cy="100" rx="78" ry="78"/>
-          <!-- abstract nodes: representative only, not office locations -->
           <circle class="g-node" cx="72" cy="66" r="1.9"/>
           <circle class="g-node" cx="118" cy="52" r="1.6"/>
           <circle class="g-node" cx="140" cy="104" r="1.9"/>
@@ -289,7 +292,7 @@
 </section>
 
 <!-- ================================================ insights -->
-<section class="section" aria-labelledby="insights-title">
+<section class="section section--dark" data-scene="insights" data-scrim="full" aria-labelledby="insights-title">
   <div class="shell">
     <div class="section__head">
       <div>
@@ -304,13 +307,13 @@
     </div>
 
     <div class="reveal" style="margin-top: clamp(2.5rem, 4vw, 3.5rem);">
-      <a class="btn" href="/insights">View All Insights <span class="btn__arrow" aria-hidden="true">→</span></a>
+      <a class="btn btn--ghost-light" href="/insights">View All Insights <span class="btn__arrow" aria-hidden="true">→</span></a>
     </div>
   </div>
 </section>
 
 <!-- ================================================ cta -->
-<section class="section cta" aria-labelledby="cta-title">
+<section class="section cta" data-scene="cta" data-scrim="left" aria-labelledby="cta-title">
   <div class="plate plate--water" aria-hidden="true"></div>
   <div class="cta__veil" aria-hidden="true"></div>
   <div class="shell">

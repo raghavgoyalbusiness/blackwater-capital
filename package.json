@@ -1,12 +1,19 @@
 {
   "name": "blackwater-capital",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "Blackwater Capital — website for a proposed investment and asset management brand.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "test": "node scripts/test-scene.js",
+    "verify:pages": "node scripts/verify-pages.js",
+    "verify:contrast": "node scripts/verify-contrast.js",
+    "verify:contrast:fallback": "NO_WEBGL=1 node scripts/verify-contrast.js",
+    "verify:fallback": "node scripts/verify-fallback.js",
+    "verify": "npm run test && npm run verify:pages && npm run verify:contrast && npm run verify:contrast:fallback && npm run verify:fallback",
+    "frames": "node scripts/shoot-scene.js /tmp/bwc-frames"
   },
   "engines": { "node": ">=18" }
 }
