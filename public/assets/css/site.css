@@ -90,10 +90,17 @@ main:focus { outline: none; }
   outline-offset: 3px;
   border-radius: 1px;
 }
+/* The navy focus ring is only legible on a light ground. Every dark surface —
+   including the mobile drawer and the whole of the homepage — needs the
+   off-white ring, or the keyboard indicator all but disappears. */
 .section--dark :where(a, button, input, select, textarea, [tabindex]):focus-visible,
 .footer :where(a, button):focus-visible,
 .hero :where(a, button):focus-visible,
-.cookie :where(a, button):focus-visible {
+.cta :where(a, button):focus-visible,
+.cookie :where(a, button):focus-visible,
+.nav__menu :where(a, button):focus-visible,
+.page-home .nav :where(a, button):focus-visible,
+body[data-hero-theme="dark"] .nav:not(.is-stuck) :where(a, button):focus-visible {
   outline-color: var(--off);
 }
 
@@ -1047,6 +1054,8 @@ body[data-hero-theme="dark"] .nav:not(.is-stuck) .btn--nav { --btn-hover-fg: var
 }
 
 @media (max-width: 560px) {
+  /* Two columns leaves ~150px per stage here, which shreds the descriptions. */
+  .process__steps { grid-template-columns: 1fr; row-gap: 2rem; }
   .footer__nav { grid-template-columns: 1fr; gap: 2.25rem; }
   .hero { min-height: 88svh; }
   .btn { width: 100%; justify-content: center; }
@@ -1139,6 +1148,10 @@ body.page-home .nav.is-stuck .nav__logo--light { display: block; }
 
 /* Narrow screens: text fills the frame, so the directional scrims become full. */
 @media (max-width: 900px) {
+  /* Stacked, the editorial aperture is a short letterbox sitting well above the
+     waterline — it frames empty water. The scene itself is the image here. */
+  .scene-on .page-home .editorial__media { display: none; }
+
   .scene-on .page-home section[data-scrim]::before {
     background: linear-gradient(180deg,
       rgba(9, 11, 13, 0.76) 0%, rgba(9, 11, 13, 0.9) 12%,
